@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Jquery Intro</title>
+    <meta charset="UTF-8"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.form.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/jquery.validate.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/additional-methods.min.js"></script>
+    <script type="text/javascript" src ="jqueryIntro.js"></script>
+    <link type="text/css" rel="stylesheet" href="jqueryIntro.css"/>
+</head>
+
+    <body>
+        <p id="eagle" class="enhanced">
+            The Eagle Mk1, commonly referred to as the Eagle T1G, was a <em>Formula One racing car</em>, designed by Len Terry for Dan Gurney's Anglo American Racers team. The Eagle, introduced for the start of the 1966 Formula One season, is often regarded as being one of the most beautiful Grand Prix cars ever raced at the top levels of international motorsport
+        </p>
+        <p id="gurney" class="enhanced">
+            Initially appearing with a 2.7L Coventry Climax inline <strong>4-cylinder</strong> engine, the car was designed around a 3.0L Gurney-Weslake V12 which was introduced after its first four races.
+        </p>
+        <p>
+            In the hands of team boss Gurney, the Eagle-Weslake won the 1967 Belgian Grand Prix, making Dan Gurney only the second driver at the time, and one of only three to date, to win a Formula One Grand Prix in a car of their own construction.
+        </p>
+        <div id=outer> 
+        <form id="familyForm">
+            <div id="inputs"><input type="text" id="name" name="name" placeholder="Name"/><br/></div>
+            <div id="inputs"><input type="number" id="age" name="age" step="1" placeholder="Age"/><br/></div>
+            <div id="inputs"><input type="number" id="amount" name="amount" step=".01" min="1000" placeholder="Donation"/><br/></div>
+            <div id="inputs"><input type="email" id="email" name="email" placeholder="Email"/><br/></div>
+       <div id="buttons">
+           <button type="submit">Sign Up</button>
+           <button type="reset">Clear</button>
+        </div>
+        </form>
+        </div>
+        <div id="outputArea"></div>
+    </body>
+    
+</html>

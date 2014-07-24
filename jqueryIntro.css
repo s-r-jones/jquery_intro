@@ -1,0 +1,62 @@
+.enhanced
+{
+    font-family: Tahoma;
+}
+
+.evenMoreEnhanced
+{
+    font-family: Franklin Gothic Medium;
+}
+
+em
+{
+    color: blue;
+}
+
+strong
+{
+    color: red;
+}
+.invalidInput
+{
+    color: red;
+    font-weight: 300;
+    font-family: Georgia;
+    text-shadow: 0.1em 0.05em .05em black;
+}
+
+#outer
+{
+    border-radius: 5px;
+    background-color: #b1a1c6;
+    position: relative;
+    border: solid 1px;
+    float: left;
+}
+
+input {
+    height: 35px;
+    width: 190px;
+    border-radius: 10px;
+}
+
+
+button
+{
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    border: 1px solid white;
+    font-family: Helvetica;
+    font-size: 1em;
+}
+
+#inputs
+{
+    padding: 10px;
+}
+
+#buttons
+{
+    display: inline-block;
+}
